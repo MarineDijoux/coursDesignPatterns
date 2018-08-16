@@ -1,0 +1,14 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public interface Packaging {
+
+    /**
+     * @return
+     */
+    public String getPack();
+
+}

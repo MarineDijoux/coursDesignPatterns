@@ -1,0 +1,14 @@
+package model;
+
+public abstract class Burger implements Item {
+
+    /**
+     * Default constructor
+     */
+    public Burger() {
+    }
+	public Packaging packing() {
+		return new Wrapper();
+	}
+
+}

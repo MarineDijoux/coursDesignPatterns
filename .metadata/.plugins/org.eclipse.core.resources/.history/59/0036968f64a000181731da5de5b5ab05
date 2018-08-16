@@ -1,0 +1,23 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class ChickenBurger extends Burger {
+
+    /**
+     * Default constructor
+     */
+    public ChickenBurger() {
+    }
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+}

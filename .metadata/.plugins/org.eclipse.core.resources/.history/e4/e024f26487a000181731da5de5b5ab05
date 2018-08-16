@@ -1,0 +1,12 @@
+package model;
+
+import java.util.*;
+
+
+public class Main {
+
+    public void main() {
+        // TODO implement here
+    }
+
+}

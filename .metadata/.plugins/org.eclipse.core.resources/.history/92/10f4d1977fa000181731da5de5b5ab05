@@ -1,0 +1,11 @@
+package builder;
+
+public class Drink extends Item {
+
+    /**
+     * Default constructor
+     */
+    public Drink() {
+    }
+
+}

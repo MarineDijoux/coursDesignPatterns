@@ -1,0 +1,36 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Meal {
+
+    public ArrayList<Item> listeItems = new ArrayList<Item>();
+
+    /**
+     * @param item Item 
+     * @return
+     */
+    public void addItems(item Item) {
+        // TODO implement here
+
+    }
+
+    /**
+     * @return
+     */
+    public void show() {
+        // TODO implement here
+
+    }
+
+    /**
+     * @return
+     */
+    public void getPrice() {
+        // TODO implement here
+
+    }
+
+}

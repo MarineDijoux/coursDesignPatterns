@@ -1,0 +1,33 @@
+package builder;
+
+public class VegBurger extends Burger {
+
+    /**
+     * Default constructor
+     */
+    public VegBurger() {
+    }
+
+    public String VEG = "Veg Burger";
+
+    public float price = 8.50f;
+
+    /**
+     * @param VEG 
+     * @return
+     */
+    public String getName(String VEG) {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @param price 
+     * @return
+     */
+    public float getPrice(float price) {
+        // TODO implement here
+        return 0.0f;
+    }
+
+}

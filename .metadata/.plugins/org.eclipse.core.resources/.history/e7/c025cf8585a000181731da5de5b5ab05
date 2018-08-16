@@ -1,0 +1,23 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Class1 implements Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Class1() {
+    }
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+}

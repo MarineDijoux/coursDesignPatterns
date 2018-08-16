@@ -1,0 +1,12 @@
+package model;
+
+public interface Item extends Meal {
+
+    /**
+     * @return
+     */
+    public String getName();
+    public float getPrice();
+    public String getPack();
+
+}

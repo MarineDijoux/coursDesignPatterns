@@ -1,0 +1,17 @@
+package model;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO implement here
+    	
+    	
+    	Meal myMeal = new Meal();
+    	myMeal.addItems(new Coke());
+    	System.out.println("Cout : " + myMeal.getTotalPrice());
+    	
+    	System.out.println("Cout : " + myMeal);
+    	
+    }
+
+}

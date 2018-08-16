@@ -1,0 +1,13 @@
+package model;
+
+public abstract class Drink implements Item {
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+}

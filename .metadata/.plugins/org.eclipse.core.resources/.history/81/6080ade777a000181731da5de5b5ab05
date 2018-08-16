@@ -1,0 +1,32 @@
+package builder;
+
+public class Coke extends Drink {
+
+    /**
+     * Default constructor
+     */
+    public Coke() {
+    }
+
+    public String COKE = "Coke";
+    public float price = 2.00f;
+
+    /**
+     * @param COKE 
+     * @return
+     */
+    public String getName(String COKE) {
+        // TODO implement here
+        return COKE;
+    }
+
+    /**
+     * @param price 
+     * @return
+     */
+    public float getPrice(float price) {
+        // TODO implement here
+        return price;
+    }
+
+}

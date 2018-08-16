@@ -1,0 +1,11 @@
+package builder;
+
+public interface Gift {
+
+    /**
+     * @return
+     */
+    public String getGift();
+    public Packaging packaging();
+
+}

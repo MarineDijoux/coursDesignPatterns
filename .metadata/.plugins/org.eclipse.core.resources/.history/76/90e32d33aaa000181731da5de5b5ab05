@@ -1,0 +1,47 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public abstract class Drink implements Item {
+
+    /**
+     * Default constructor
+     */
+    public Drink() {
+    }
+
+    /**
+     * @return
+     */
+    public Packaging packaging() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public float getPrice() {
+        // TODO implement here
+        return 0.0f;
+    }
+
+    /**
+     * @return
+     */
+    public Packaging packaging() {
+        // TODO implement here
+        return null;
+    }
+
+}

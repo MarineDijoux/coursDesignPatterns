@@ -1,0 +1,25 @@
+package builder ;
+
+public class Wrapper extends Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Wrapper() {
+    }
+
+    /**
+     * 
+     */
+    public String WRAPPER = "Wrapper";
+
+    /**
+     * @param WRAPPER 
+     * @return
+     */
+    public String getName(String WRAPPER) {
+        // TODO implement here
+        return "";
+    }
+
+}

@@ -1,0 +1,21 @@
+package builder;
+
+public class Bottle extends Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Bottle() {
+    }
+
+    private String BOTTLE = "Bottle";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return this.BOTTLE;
+    }
+
+}

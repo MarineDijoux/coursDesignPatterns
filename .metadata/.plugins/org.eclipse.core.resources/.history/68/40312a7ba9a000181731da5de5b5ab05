@@ -1,0 +1,44 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class BoyGame implements Gift {
+
+    /**
+     * Default constructor
+     */
+    public BoyGame() {
+    }
+
+    /**
+     * 
+     */
+    private String BOY = "Boy game";
+
+    /**
+     * @return
+     */
+    public String getGift() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public String getGift() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public Packaging packaging() {
+        // TODO implement here
+        return null;
+    }
+
+}

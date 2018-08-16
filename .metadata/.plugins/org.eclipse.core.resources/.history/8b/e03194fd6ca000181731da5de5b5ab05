@@ -1,0 +1,13 @@
+package builder;
+/**
+ * 
+ */
+public class Burger extends Item {
+
+    /**
+     * Default constructor
+     */
+    public Burger() {
+    }
+
+}

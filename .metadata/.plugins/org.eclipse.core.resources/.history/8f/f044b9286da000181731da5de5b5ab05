@@ -1,0 +1,28 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class VegBurger extends Burger {
+
+    /**
+     * Default constructor
+     */
+    public VegBurger() {
+    }
+
+    /**
+     * 
+     */
+    public String VEG = "Veg Burger";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+}

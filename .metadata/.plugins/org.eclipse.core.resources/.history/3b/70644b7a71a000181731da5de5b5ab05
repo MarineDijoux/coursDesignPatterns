@@ -1,0 +1,43 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Pepsi extends Drink {
+
+    /**
+     * Default constructor
+     */
+    public Pepsi() {
+    }
+
+    /**
+     * 
+     */
+    public String PEPSI = "Pepsi";
+
+    /**
+     * 
+     */
+    public float price = 1.50f;
+
+    /**
+     * @param PEPSI 
+     * @return
+     */
+    public String getName(String PEPSI) {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @param price 
+     * @return
+     */
+    public float getPrice(float price) {
+        // TODO implement here
+        return 0.0f;
+    }
+
+}

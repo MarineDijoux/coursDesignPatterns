@@ -1,0 +1,24 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public interface Item extends Meal {
+
+    /**
+     * @return
+     */
+    public String getName();
+
+    /**
+     * @return
+     */
+    public float getPrice();
+
+    /**
+     * @return
+     */
+    public Packaging packaging();
+
+}

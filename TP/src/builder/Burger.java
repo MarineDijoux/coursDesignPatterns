@@ -1,0 +1,12 @@
+package builder;
+
+public abstract class Burger implements Item {
+
+    /**
+     * @return
+     */
+    public Packaging packaging() {
+        // TODO implement here
+        return new Wrapper();
+    }
+}

@@ -1,0 +1,30 @@
+package model;
+
+public abstract class Drink implements Item {
+
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public float getPrice() {
+        // TODO implement here
+        return 0.0f;
+    }
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+}

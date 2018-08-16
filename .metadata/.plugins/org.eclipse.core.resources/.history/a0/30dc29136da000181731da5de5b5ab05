@@ -1,0 +1,13 @@
+package builder;
+/**
+ * 
+ */
+public class Item extends Meal {
+
+    /**
+     * Default constructor
+     */
+    public Item() {
+    }
+
+}

@@ -1,0 +1,32 @@
+package builder;
+
+public class Bottle implements Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Bottle() {
+    }
+
+    /**
+     * 
+     */
+    private String BOTTLE = "Bottle";
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+}

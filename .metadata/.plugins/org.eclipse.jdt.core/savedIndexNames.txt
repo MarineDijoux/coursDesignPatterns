@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\DIJOUX\Documents\Cours9\Builder\JavaProjet\.metadata\.plugins\org.eclipse.jdt.core
+3996102163.index

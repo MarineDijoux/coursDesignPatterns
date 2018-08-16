@@ -1,0 +1,27 @@
+package model;
+
+public class MealBuilder {
+
+    /**
+     * Default constructor
+     */
+    public MealBuilder() {
+    }
+
+    /**
+     * @return
+     */
+    public Meal prepareVegMeal() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public Meal prepareNonVegMeal() {
+        // TODO implement here
+        return null;
+    }
+
+}

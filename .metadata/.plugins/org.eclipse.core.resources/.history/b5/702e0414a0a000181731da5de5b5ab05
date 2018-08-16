@@ -1,0 +1,30 @@
+package model;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO implement here
+    	
+    	Meal meal = new Meal();
+    	meal.addItems(new Coke());
+    	meal.show();
+    	System.out.println("Cout : " + meal.getTotalPrice());
+    	
+    	
+    	meal = new Meal();
+    	meal.addItems(new Pepsi())
+    		.addItems(new ChickenBurger())
+    		.addItems(new ChickenBurger())
+    		.addItems(new VegBurger());
+    	meal.show();
+    	System.out.println("Cout : " + meal.getTotalPrice());
+    	
+    	Meal vegMeal = mealBuilder.prepareVegMeal();
+    	vegMeal.show();
+    	
+    	
+    	
+    	
+    }
+
+}

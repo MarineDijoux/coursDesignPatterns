@@ -1,0 +1,51 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Meal {
+
+    /**
+     * Default constructor
+     */
+    public Meal() {
+    }
+
+    /**
+     * 
+     */
+    public ArrayList<Item> listeItems;
+
+    /**
+     * @param Item item
+     */
+    public void addItems(void Item item) {
+        // TODO implement here
+    }
+
+    /**
+     * @param Item item 
+     * @param int nb
+     */
+    public void addItems(void Item item, void int nb) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void show() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @return
+     */
+    public float getTotalPrice() {
+        // TODO implement here
+        return 0.0f;
+    }
+
+}

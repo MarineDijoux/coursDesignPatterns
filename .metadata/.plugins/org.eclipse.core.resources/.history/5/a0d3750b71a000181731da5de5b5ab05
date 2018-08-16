@@ -1,0 +1,29 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Bottle extends Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Bottle() {
+    }
+
+    /**
+     * 
+     */
+    public String BOTTLE = "Bottle";
+
+    /**
+     * @param BOTTLE 
+     * @return
+     */
+    public String getName(String BOTTLE) {
+        // TODO implement here
+        return "";
+    }
+
+}

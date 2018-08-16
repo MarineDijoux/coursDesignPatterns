@@ -1,0 +1,20 @@
+package builder;
+
+public interface Item {
+
+    /**
+     * @return
+     */
+    public String getName();
+
+    /**
+     * @return
+     */
+    public float getPrice();
+
+    /**
+     * @return
+     */
+    public Packaging packaging();
+
+}

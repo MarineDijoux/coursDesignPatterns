@@ -1,0 +1,22 @@
+package builder;
+
+public class ChickenBurger extends Burger {
+
+    private String CHICKEN = "Chicken Burger";
+    private float price = 8.00f;
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return this.CHICKEN;
+    }
+    /**
+     * @return
+     */
+    public float getPrice() {
+        // TODO implement here
+        return this.price;
+    }
+
+}

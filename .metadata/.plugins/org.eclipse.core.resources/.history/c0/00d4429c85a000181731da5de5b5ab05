@@ -1,0 +1,36 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Wrapper implements Packaging {
+
+    /**
+     * Default constructor
+     */
+    public Wrapper() {
+    }
+
+    /**
+     * 
+     */
+    private String WRAPPER = "Wrapper";
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+    /**
+     * @return
+     */
+    public String getPack() {
+        // TODO implement here
+        return "";
+    }
+
+}

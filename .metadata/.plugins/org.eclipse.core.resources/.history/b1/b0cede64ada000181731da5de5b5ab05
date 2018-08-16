@@ -1,0 +1,23 @@
+package builder;
+
+public class BoyGame implements Gift {
+
+    private String BOY = "Boy game";
+
+    /**
+     * @return
+     */
+    public String getGift() {
+        // TODO implement here
+        return this.BOY;
+    }
+
+    /**
+     * @return
+     */
+    public Packaging packaging() {
+        // TODO implement here
+        return new Wrapper();
+    }
+
+}

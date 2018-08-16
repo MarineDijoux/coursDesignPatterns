@@ -1,0 +1,11 @@
+package builder;
+
+public class Main extends MealBuilder {
+
+    /**
+     * Default constructor
+     */
+    public Main() {
+    }
+
+}

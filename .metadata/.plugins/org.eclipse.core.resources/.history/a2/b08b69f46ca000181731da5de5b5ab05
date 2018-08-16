@@ -1,0 +1,28 @@
+package builder;
+/**
+ * 
+ */
+public class Meal {
+
+    /**
+     * Default constructor
+     */
+    public Meal() {
+    }
+
+
+    /**
+     * 
+     */
+    public void prepareVegMeal() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void prepareNonVegMeal() {
+        // TODO implement here
+    }
+
+}

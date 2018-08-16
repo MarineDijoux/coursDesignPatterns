@@ -1,0 +1,26 @@
+package builder;
+/**
+ * 
+ */
+public class ChickenBurger extends Burger {
+
+    /**
+     * Default constructor
+     */
+    public ChickenBurger() {
+    }
+
+    /**
+     * 
+     */
+    public String CHICKEN = "Chicken Burger";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+}

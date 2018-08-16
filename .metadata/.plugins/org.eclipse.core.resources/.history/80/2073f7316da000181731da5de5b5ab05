@@ -1,0 +1,24 @@
+package builder;
+
+public class Pepsi extends Drink {
+
+    /**
+     * Default constructor
+     */
+    public Pepsi() {
+    }
+
+    /**
+     * 
+     */
+    public String PEPSI = "Pepsi";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+}

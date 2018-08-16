@@ -1,0 +1,40 @@
+package model;
+
+import java.util.ArrayList;
+
+public class Meal {
+
+    public ArrayList<Item> listeItems = new ArrayList<Item>();
+
+    /**
+     * @param Item item 
+     * @return
+     */
+    public Meal addItems(Item item) {
+        // TODO implement here
+    	listeItems.add(item);
+    	return this ;
+    }
+
+    /**
+     * @return
+     */
+    public void show() {
+        // TODO implement here
+
+    }
+
+    /**
+     * @return
+     */
+    public float getPrix() {
+        // TODO implement here
+    	float prix = 0.0f;
+    	for (Item item : listeItems) {
+    		prix = item.;
+    	}
+    	return prix;
+    	
+    }
+
+}

@@ -1,0 +1,24 @@
+package model;
+
+public class MealBuilder {
+
+    /**
+     * @return
+     */
+    public Meal prepareVegMeal() {
+        // TODO implement here
+        Meal meal = new Meal();
+        meal.addItems(new Pepsi())
+			.addItems(new VegBurger());
+        return meal;
+    }
+
+    /**
+     * @return
+     */
+    public Meal prepareNonVegMeal() {
+        // TODO implement here
+        return null;
+    }
+
+}

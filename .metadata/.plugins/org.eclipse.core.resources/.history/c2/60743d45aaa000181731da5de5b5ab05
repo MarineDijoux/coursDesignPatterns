@@ -1,0 +1,15 @@
+package builder;
+
+public interface Gift extends Meal {
+
+    /**
+     * @return
+     */
+    public String getGift();
+
+    /**
+     * @return
+     */
+    public Packaging packaging();
+
+}

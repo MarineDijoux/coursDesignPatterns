@@ -1,0 +1,28 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Coke extends Drink {
+
+    /**
+     * Default constructor
+     */
+    public Coke() {
+    }
+
+    /**
+     * 
+     */
+    public String COKE = "Coke";
+
+    /**
+     * @return
+     */
+    public String getName() {
+        // TODO implement here
+        return "";
+    }
+
+}
